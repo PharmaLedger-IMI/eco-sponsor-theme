@@ -1,0 +1,17 @@
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+}
+
+textarea {
+    width: 700px;
+    height: 100px;
+}
+
+.summary-tables {
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+}

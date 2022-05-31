@@ -1,5 +1,5 @@
 {
-  "name": "epi-theme",
+  "name": "eco-sponsor-theme",
   "version": "1.0.0",
   "description": "",
   "main": " ",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/PharmaLedger-IMI/epi-theme.git"
+    "url": "git+ssh://git@github.com/PharmaLedger-IMI/eco-sponsor-theme.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/PharmaLedger-IMI/epi-theme/issues"
+    "url": "https://github.com/PharmaLedger-IMI/eco-sponsor-theme/issues"
   },
-  "homepage": "https://github.com/PharmaLedger-IMI/epi-theme/#readme",
+  "homepage": "https://github.com/PharmaLedger-IMI/eco-sponsor-theme/#readme",
   "dependencies": {
     "octopus": "git+http://github.com/privatesky/octopus.git"
   }
