@@ -30,6 +30,22 @@ webc-app-container .container {
     width: 100%;
 }
 
+.wallet-initializing-info{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: black;
+    z-index: 100;
+}
+
+.wallet-initializing-info .spinner-border{
+    margin-bottom: 2rem;
+    width: 5rem;
+    height: 5rem;
+}
+
 .container.app-container,
 .container.before {
     background: #FFFFFF;
