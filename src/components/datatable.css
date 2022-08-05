@@ -35,6 +35,12 @@
    align-items: center;
 }
 
+.trials-list-table .webc-datatable--container {
+    display: grid;
+    align-items: baseline;
+    grid-template-columns: repeat(4, 1fr) 2fr;
+}
+
 .dt-4-col webc-datatable div.cell:nth-child(8n+1),
 .dt-4-col webc-datatable div.cell:nth-child(8n+2),
 .dt-4-col webc-datatable div.cell:nth-child(8n+3),
@@ -46,6 +52,12 @@
 .dt-3-col webc-datatable div.cell:nth-child(6n+1),
 .dt-3-col webc-datatable div.cell:nth-child(6n+2),
 .dt-3-col webc-datatable div.cell:nth-child(6n+3),
+
+.dt-5-col webc-datatable div.cell:nth-child(10n+1),
+.dt-5-col webc-datatable div.cell:nth-child(10n+2),
+.dt-5-col webc-datatable div.cell:nth-child(10n+3),
+.dt-5-col webc-datatable div.cell:nth-child(10n+4),
+.dt-5-col webc-datatable div.cell:nth-child(10n+5),
 
 .dt-6-col webc-datatable div.cell:nth-child(12n+1),
 .dt-6-col webc-datatable div.cell:nth-child(12n+2),
