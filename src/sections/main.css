@@ -281,3 +281,17 @@ hr {
     bottom: 50%;
     transform: translateY(50%);
 }
+
+.red-invalid {
+    color: red;
+    font-size: 24px;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.statistics {
+    background-color: #008798;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}

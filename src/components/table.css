@@ -13,22 +13,3 @@ td, th {
 tr:nth-child(even) {
     background-color: #F5F5F5;
 }
-
-.cell-options{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    white-space: nowrap;
-}
-
-.table-cell {
-    font-size: 16px;
-    color: #000000;
-}
-
-.table-cell-title {
-    font-size: 16px;
-    color: #000000;
-    font-weight: bold;
-}
-
