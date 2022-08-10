@@ -292,6 +292,5 @@ hr {
 .statistics {
     background-color: #008798;
     color: white;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin: 0;
 }
