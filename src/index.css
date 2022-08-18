@@ -5,10 +5,11 @@
 @import url("sections/general.css");
 
 @import url("sections/container.css");
-@import url("sections/header.css");
-@import url("sections/main.css");
 @import url("sections/footer.css");
 @import url("sections/form.css");
+@import url("sections/header.css");
+@import url("sections/main.css");
+@import url("sections/visits.css");
 
 @import url("components/breadcrumb.css");
 @import url("components/button.css");
@@ -26,4 +27,8 @@
     --primary: #00345b;
     --secondary: #008798;
     --webc-secondary-background: #008798 !important;
+}
+
+webc-modal {
+    --max-width: 40% !important;
 }
