@@ -1,9 +1,3 @@
-.common-datatable .webc-datatable--container {
-    display: grid;
-    align-content: start;
-    min-height: 325px;
-}
-
 .common-datatable .webc-datatable--container > * {
     padding: 0.5rem;
     border-bottom: 1px solid #CDCDCD;
@@ -40,14 +34,14 @@
     column-gap: 0.25rem;
 }
 
-.dt-2-col,
-.dt-3-col,
-.dt-4-col,
-.dt-5-col,
-.dt-6-col,
-.dt-7-col,
-.dt-8-col,
-.dt-9-col {
+.dt-2-col .webc-datatable--container,
+.dt-3-col .webc-datatable--container,
+.dt-4-col .webc-datatable--container,
+.dt-5-col .webc-datatable--container,
+.dt-6-col .webc-datatable--container,
+.dt-7-col .webc-datatable--container,
+.dt-8-col .webc-datatable--container,
+.dt-9-col .webc-datatable--container {
     display: grid;
     align-content: start;
     min-height: 325px;
@@ -58,11 +52,11 @@
 }
 
 .dt-3-col .webc-datatable--container {
-    grid-template-columns: repeat(2, 1fr) 2fr;
+    grid-template-columns: repeat(2, 1fr) 3fr;
 }
 
 .dt-4-col .webc-datatable--container {
-    grid-template-columns: repeat(3, 1fr) 2fr;
+    grid-template-columns: repeat(3, 2fr) 3fr;
 }
 
 .dt-5-col .webc-datatable--container {
@@ -83,6 +77,10 @@
 
 .dt-9-col .webc-datatable--container {
     grid-template-columns: repeat(8, 1fr) 2fr;
+}
+
+.trial-list-table .webc-datatable--container {
+    grid-template-columns: 2fr repeat(4, 1fr) 2fr;
 }
 
 .dt-2-col webc-datatable div.cell:nth-child(4n+1),
