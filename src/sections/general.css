@@ -355,3 +355,10 @@ webc-app-menu > div > div > webc-app-menu-item {
 body > webc-app-root > aside > webc-app-menu {
   background-color: var(--primary) !important;
 }
+
+.modal-form-container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  row-gap: 0.25rem;
+}
