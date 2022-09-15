@@ -294,3 +294,7 @@ hr {
     color: white;
     margin: 0;
 }
+
+.statistics-item {
+    text-align: center;
+}
